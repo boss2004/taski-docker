@@ -1,5 +1,5 @@
-from pathlib import Path
 import os
+from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -10,9 +10,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['89.169.165.53', 'Taskiapp.hopto.org', 'localhost', '127.0.0.1']
 
-
-
-# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
